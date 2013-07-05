@@ -1,0 +1,67 @@
+<h1>pcb_footprints</h1>
+
+<p>Some code supporting IPC-7351 footprints.</p>
+
+<p>If you are not familiar with IPC-7351 footprint specifications,
+you should start with:</p>
+
+<blockquote>
+  <p><a href="PIC-7351BNamingCOnvention.pdf">IPC-7351B Naming Conventions</a></p>
+</blockquote>
+
+<p>This document provides a terse "cheat sheet" for the various
+IPC footprint names.</p>
+
+<p>Next, there is a document that I found on the net written
+by Tom Hausher:</p>
+
+<blockquote>
+  <p><a href="http://www.dnu.no/arkiv1/The%20CAD%20Library%20of%20the%20Future.pdf">The CAD Library of the Future</a></p>
+</blockquote>
+
+<p>that talks about PCB footprints, standards, etc.</p>
+
+<p>There is another much larger document written by Tom Hausher,</p>
+
+<blockquote>
+  <p><a href="http://www.frontdoor.biz/HowToPCB/HowToPCB-extra/CADlib.pdf">The CAD Library</a></p>
+</blockquote>
+
+<p>that goes into much greater detail about PCB footprints.</p>
+
+<p>It looks like Tom is now CEO of:</p>
+
+<blockquote>
+  <p><a href="http://www.pcblibraries.com/">PCBLibraries</a></p>
+</blockquote>
+
+<p>which looks like they are selling a very comprehensive
+component library solution for professionals.</p>
+
+<h2>FPL Convert</h2>
+
+<p>FPL Convert takes some IPC-7351 footprint libraries
+from the <a href="http://freepcb.com/">FreePCB Project</a>
+and converts them to modules that can be read into
+<a href="kicad.sourceforge.net">KiCAD</a>.</p>
+
+<p>To build from scratch, download the following compressed file:</p>
+
+<blockquote>
+  <p><a href="fpl_convert.zip">fpl_convert.zip</a></p>
+</blockquote>
+
+<p>that contains a makefile and the C source code.  The Makefile
+downloads the libraries, compiles the code and converts
+everything into the correct format.</p>
+
+<p>If you do not want to do that you can download the appropriate
+library for KiCAD:</p>
+
+<ul>
+<li><p><a href="LPC7351-Least.mod">LPC7351-Least.mod</a></p></li>
+<li><p><a href="LPC7351-Nominal.mod">LPC7351-Nominal.mod</a></p></li>
+<li><p><a href="LPC7351-Most.mod">LPC7351-Most.mod</a></p></li>
+</ul>
+
+<p>Most people should go with LPC7351-Nominal.</p>
