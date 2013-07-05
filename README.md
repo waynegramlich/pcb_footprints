@@ -5,7 +5,7 @@ Some code supporting IPC-7351 footprints.
 If you are not familiar with IPC-7351 footprint specifications,
 you should start with:
 
->    [IPC-7351B Naming Conventions](PIC-7351BNamingCOnvention.pdf)
+>    [IPC-7351B Naming Conventions](http://landpatterns.ipc.org/IPC-7351BNamingConvention.pdf)
 
 This document provides a terse "cheat sheet" for the various
 IPC footprint names.
