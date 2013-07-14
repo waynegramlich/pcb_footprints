@@ -56,7 +56,7 @@ struct Corner___struct {
     Long side_style;		// Side style
 };
 
-// A Footprint is an IC footpring:
+// A Footprint is an IC footprint:
 struct Footprint___struct {
     String name;		// Name of footprint
     String author;		// Author of footprint
@@ -1330,9 +1330,9 @@ void Text__kicad_write(
 
     Unsigned x_position = 0;
     Unsigned y_position = 0;
-    Unsigned x_size = 0;
-    Unsigned y_size = 0;
-    Unsigned pen_width = 0;
+    Unsigned x_size = 400;
+    Unsigned y_size = 400;
+    Unsigned pen_width = 80;
 
     (void)fprintf(mod_stream, "T%d %d %d %d %d 0 %d N V 21 N %s\n",
       field_number, x_position,  y_position,
