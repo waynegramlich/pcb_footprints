@@ -1336,7 +1336,7 @@ void Text__kicad_write(
 
     (void)fprintf(mod_stream, "T%d %d %d %d %d 0 %d N V 21 N %s\n",
       field_number, x_position,  y_position,
-      x_size, y_size, pen_width, "~", mod_stream);
+      x_size, y_size, pen_width, "~");
 }
 
 Text Text__parse(

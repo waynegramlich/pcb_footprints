@@ -50,13 +50,13 @@ everything into the correct format.
 If you do not want to do that you can download the appropriate
 library for KiCAD:
 
-* [LPC7351-Least.mod](LPC7351-Least.mod)
+* [IPC7351-Least.mod](IPC7351-Least.mod)
 
-* [LPC7351-Nominal.mod](LPC7351-Nominal.mod)
+* [IPC7351-Nominal.mod](IPC7351-Nominal.mod)
 
-* [LPC7351-Most.mod](LPC7351-Most.mod)
+* [IPC7351-Most.mod](IPC7351-Most.mod)
 
-Most people should go with LPC7351-Nominal.
+Most people should go with IPC7351-Nominal.
 
 
 

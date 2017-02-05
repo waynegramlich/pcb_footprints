@@ -11,7 +11,7 @@ FOOTPRINT_MODULES := ${FOOTPRINT_DIRECTORIES:%=%.mod}
 PDFS :=				\
     FreePCB_User_Guide.pdf	\
     IPC-7351BNamingConvention.pdf
-ZIP_FILES :=			\
+FOOTPRINT_ZIP_FILES :=			\
     Makefile			\
     readme.txt			\
     fpl_convert.c
@@ -26,8 +26,8 @@ fpl_convert: fpl_convert.c
 	$(CC) -g -o $@ fpl_convert.c
 
 clean:
-	rm -f ${FOOTPRINT_DIRECTORES}
-	rm -f ${FOOTPRINT_ZIPS}
+	rm -rf ${FOOTPRINT_DIRECTORIES}
+	rm -f fpl_convert
 
 # Get naming conventions .pdf file:
 IPC-7351BNamingConvention.pdf:
