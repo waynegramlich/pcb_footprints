@@ -20,7 +20,7 @@ all: ${FOOTPRINT_MODULES} ${PDFS} fpl_convert.zip \
     README.html index.html index.pdf
 
 ${FOOTPRINT_MODULES}: ${FOOTPRINT_DIRECTORIES} fpl_convert
-	fpl_convert
+	./fpl_convert
 
 fpl_convert: fpl_convert.c
 	$(CC) -g -o $@ fpl_convert.c

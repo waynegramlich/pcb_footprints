@@ -189,6 +189,7 @@ Integer main(
 
     // Read in the libraries:
     Array least = Footprint__directory_read((Array)0, "IPC7351-Least");
+    (void)fprintf(stderr, "least.size=%d\n", Array__size(least));
     Array nominal = Footprint__directory_read((Array)0, "IPC7351-Nominal");
     Array most = Footprint__directory_read((Array)0, "IPC7351-Most");
 
@@ -500,7 +501,7 @@ Array Footprint__directory_read(
 	      directory_name, file_name) == full_file_name_size);
 
 	    // For debugging:
-	    //(void)printf("%s\n", full_file_name);
+	    (void)printf("%s\n", full_file_name);
 
 	    // Read in the whole file as a string:
 
